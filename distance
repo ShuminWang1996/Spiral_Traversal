@@ -1,0 +1,5 @@
+function d=distance(array,i,j)
+   [x_i,y_i]=find(array==i);
+   [x_j,y_j]=find(array==j);
+   d=sqrt((x_i-x_j)^2+(y_i-y_j)^2);
+end
